@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('contents.dashboard');
 })->name('home');
+
+Route::get('/data-tables', function () {
+    return view('contents.data-tables');
+})->name('datatables');
